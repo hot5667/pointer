@@ -2,9 +2,9 @@
 
 using namespace std;
 
-void AddHp(int hp, int value)
+void AddHp(int* hp, int value)
 {
-
+	*hp += value;
 }
 
 
@@ -16,12 +16,20 @@ int main()
 	// - * = 포인터
 	// - 주소값을 담는 바구니
 	// - 주소값을 타고 가면 -> 무엇이 나오느냐?
+	//(*ptr); // 역참조
+
+	// 포인터의 필요성 
+
 	int* ptr = &hp;
 
-	//(*ptr); // 역참조
-	*ptr = 200;
-	cout << *ptr << endl;
+	int** pptr = &ptr; // 이중 포인터
 
-	AddHp(hp, 10);
+	int a = 3;
+
+	//8바이트 
+
+
+	//AddHp(&hp, 10);
+	//cout << hp << endl;
 }
 
