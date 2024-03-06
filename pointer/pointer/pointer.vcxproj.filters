@@ -29,5 +29,8 @@
     <Text Include="공부.txt">
       <Filter>소스 파일</Filter>
     </Text>
+    <Text Include="데이터설계.txt">
+      <Filter>소스 파일</Filter>
+    </Text>
   </ItemGroup>
 </Project>
