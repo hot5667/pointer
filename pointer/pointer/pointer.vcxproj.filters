@@ -16,15 +16,21 @@
     <Filter Include="텍스트 파일">
       <UniqueIdentifier>{98bc1f70-f0e0-49a9-9f3b-e4e3e71ef7c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="공부 Cpp 파일">
+      <UniqueIdentifier>{17f435f9-4f2b-46ff-acd9-a9ff6bc4e081}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="pointer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="main1.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="main02.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="pointer.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
