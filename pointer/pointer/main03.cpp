@@ -2,38 +2,103 @@
 
 using namespace std;
 
-#define MAX_SZIE 10
+//int StrLen(const char* str)
+//{
+//	int count = 0;
+//
+//	while (str[count] != 0)
+//	{
+//		++count;
+//	}
+//
+//	return count;
+//}
+//
+//char* StrCpy(char* dest, char* src)
+//{
+//	char* ret = dest;
+//
+//	int i = 0;
+//
+//	//while (src[i] != 0) 
+//	//{
+//	//	dest[i] = src[i];
+//	//	i++;
+//	//}
+//
+//	while (*src != 0)
+//	{
+//		*dest = *src;
+//		dest++;
+//		src++;
+//	}
+//
+//	*dest = 0;
+//
+//	return ret;
+//}
+//
+//char* StrCat(char* dest, char* src)
+//{
+//	int len = StrLen(dest);
+//
+//	int i = 0;
+//	while (src[i] != 0)
+//	{
+//		dest[len + i] = src[i];
+//		i++;
+//	}
+//	dest[len + i] = 0;
+//
+//	return ret;
+//}
+//
+//
 
-int num[MAX_SZIE] = { 10,9,1,5,3,4,2,5,6,7 };
-
-void test(int a[])
+struct StatInfo
 {
-	int temp;
-	for (int i = 0; i < 10; ++i)
-	{
-		for (int j = 0; j < 9 - i; ++j)
-		{
-			if (a[j] > a[j + 1])
-			{
-				temp = a[j];
-				a[j] = a[j + 1];
-				a[j + 1] = temp;
-			}
-		}
-	}
+	int hp;
+	int attack;
+	int defence;
+};
+
+void PrintBtRef(StatInfo& player)
+{
 
 }
 
 
 int main()
 {
-	test(num);
+	StatInfo Player = { 100,10,1 };
 
-	for (int i = 0; i < 10; ++i)
-	{
-		cout << num[i] << " ";
-	}
+	StatInfo& ref = Player;
+	
+	ref.hp = 10;
 
-	return 0;
+
+
+
+
+
+
+
+
+
+	/*const int BUF_SIZE = 100;
+
+	char a[BUF_SIZE] = "Hello";
+	char b[BUF_SIZE] = "world";
+
+
+
+
+	char c[BUF_SIZE];
+	strcpy(c, a);
+	cout << c << endl;
+
+	cout << strcat(a, b) << endl;
+
+	return 0;*/
 
 }
