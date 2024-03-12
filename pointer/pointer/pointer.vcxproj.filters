@@ -34,6 +34,9 @@
       <Filter>공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="Study.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main04.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

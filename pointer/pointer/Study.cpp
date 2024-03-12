@@ -33,7 +33,6 @@ void chooseLotto(int* numbers)
 		//이미 찾은값인가?
 		bool found = false;
 
-
 		for (int i = 0; i < count; ++i)
 		{
 			if (numbers[i] == randValue)
