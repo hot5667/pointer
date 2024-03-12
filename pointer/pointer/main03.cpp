@@ -55,26 +55,21 @@ using namespace std;
 //
 //
 
-struct StatInfo
-{
-	int hp;
-	int attack;
-	int defence;
-};
+//struct StatInfo
+//{
+//	int hp;
+//	int attack;
+//	int defence;
+//};
 
-void PrintBtRef(StatInfo& player)
-{
-
-}
+//void PrintBtRef(const StatInfo& player)
+//{
+//
+//}
 
 
 int main()
 {
-	StatInfo Player = { 100,10,1 };
-
-	StatInfo& ref = Player;
-	
-	ref.hp = 10;
 
 
 
@@ -84,6 +79,11 @@ int main()
 
 
 
+	//StatInfo Player = { 100,10,1 };
+
+	//StatInfo& ref = Player;
+	//
+	//ref.hp = 10;
 
 	/*const int BUF_SIZE = 100;
 
