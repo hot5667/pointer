@@ -127,7 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ClassStudy.cpp" />
+    <ClCompile Include="ClassStudy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="main02.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -149,13 +151,17 @@
     <ClCompile Include="Study.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="tArr.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="3월 14일 학원 강의.txt" />
+    <Text Include="const.txt" />
     <Text Include="공부.txt" />
     <Text Include="데이터설계.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="HomeWork.h" />
+    <ClInclude Include="tArr.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
