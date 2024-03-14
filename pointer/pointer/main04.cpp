@@ -50,6 +50,9 @@ void SetBoard()
 	int num = 1;
 	int x, y = 0;
 
+	int dx[] = { 0,1,0,-1 };
+	int dy[] = { -1,0,-1,0 };
+
 	while (true)
 	{
 		board[y][x] = num;
@@ -59,10 +62,10 @@ void SetBoard()
 			break;
 		}
 
-		int nextY;
-		int nextX;
+		int nextY = y + dy[dir];
+		int nextX = x + dx[dir];
 
-		switch (dir)
+		/*switch (dir)
 		{
 			case RIGHT:
 				nextY = y;
@@ -82,25 +85,8 @@ void SetBoard()
 			y = nextY;
 			x = nextX;
 			num++;
-		}
-		else
-		{
-			switch (dir)
-			{
-				case RIGHT:
-					nextY = y;
-					nextX = x + 1;
-				case DOWN:
-					nextY = y + 1;
-					nextX = x;
-				case LEFT:
-					nextY = y;
-					nextX = x - 1;
-				case UP:
-					nextY = y - 1;
-					nextX = x;
-			}
-		}
+		}*/
+		
 	}
 }
 

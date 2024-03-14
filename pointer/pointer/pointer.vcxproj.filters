@@ -37,6 +37,12 @@
       <Filter>공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="main04.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main05cpp.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassStudy.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,5 +53,10 @@
     <Text Include="데이터설계.txt">
       <Filter>텍스트 파일</Filter>
     </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HomeWork.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
