@@ -1,6 +1,12 @@
 #pragma once
 
-typedef struct _tegArr 
+//int 를 저장하는 자료형
+struct tArray
 {
+	int* pData;		//데이터를 
+	int  MaxCount;
+	int	 CurCount;
+};
 
-}tArr;
+void InitArray(tArray* _Arr);
+void PushBack(tArray* _Arr, int Data);

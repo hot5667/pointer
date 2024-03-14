@@ -19,6 +19,9 @@
     <Filter Include="공부 Cpp 파일">
       <UniqueIdentifier>{17f435f9-4f2b-46ff-acd9-a9ff6bc4e081}</UniqueIdentifier>
     </Filter>
+    <Filter Include="자료구조">
+      <UniqueIdentifier>{54323333-bd4e-42d7-ba88-c2600e60086a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main1.cpp">
@@ -46,7 +49,7 @@
       <Filter>공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="tArr.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>자료구조</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -68,7 +71,7 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="tArr.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>자료구조</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
