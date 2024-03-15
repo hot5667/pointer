@@ -54,6 +54,9 @@
     <ClCompile Include="LinkedList.cpp">
       <Filter>자료구조</Filter>
     </ClCompile>
+    <ClCompile Include="3월 15일 수업정리.txt">
+      <Filter>텍스트 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="공부.txt">
