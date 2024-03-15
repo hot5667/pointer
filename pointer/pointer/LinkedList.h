@@ -1,1 +1,13 @@
 #pragma once
+
+struct tList
+{
+
+
+
+
+
+
+
+
+};
