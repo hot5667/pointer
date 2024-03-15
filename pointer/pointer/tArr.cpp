@@ -1,4 +1,5 @@
 #include "tArr.h"
+#include "LinkedList.h"
 
 #include <iostream>
 
@@ -13,6 +14,18 @@ int main()
 
 	//사용 했던 공간 초기화
 	Release(&Arr);
+
+	tList list = { };
+
+	list.pHeadNode;
+
+	PushBack(&list, 100);
+	PushBack(&list, 200);
+	PushBack(&list, 300);
+	PushBack(&list, 400);
+	PushBack(&list, 500);
+	PushBack(&list, 600);
+
 
 	return 0;
 }
