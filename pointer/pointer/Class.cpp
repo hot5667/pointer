@@ -52,13 +52,24 @@ public:
 	void MoveHandle(){}
 	void pushPedal(){}
 	void OpenDoor(){}
+	void TurnKey(){}
 
-	void Disassemble(){}
-	void PutFuellnEngine(){}
-	void ConnectCircuit() {}
+protected:
+	void disassemble(){}
+	void putFuellnEngine(){}
+	void connectCircuit(){}
+
 public:
 
 
+};
+
+class Knight
+{
+public:
+
+public:
+	int _hp = 100;
 };
 
 int main()
