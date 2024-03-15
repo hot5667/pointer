@@ -4,7 +4,7 @@
 
 struct tNode
 {
-	int*	Data;
+	int	Data;
 	tNode*	pNextNode;
 };
 
@@ -15,3 +15,5 @@ struct tList
 };
 
 void PushBack(tList* _List, int _Data);
+void _PushFront(tList* _List, int _Data);
+void Release(tList* _List);

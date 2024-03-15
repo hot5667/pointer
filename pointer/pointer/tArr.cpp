@@ -3,6 +3,10 @@
 
 #include <iostream>
 
+// 함수 오버로딩
+// 함수의 이름이 같지만, 입력 인자의 개수나 타입이 다르면,
+// 같은 이름의 함수를 생성 시킬 수 있다.
+
 using namespace std;
 
 int main()
