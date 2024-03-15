@@ -12,9 +12,10 @@ int main()
 // -은닉성
 // -다형성
 
-
+// Player 기본 클래스
 class Player
 {
+
 public:
 	void Move(){}
 	void Attack(){}
@@ -24,6 +25,7 @@ public:
 	int _hp;
 	int _attack;
 	int _defence;
+
 };
 
 class Knight : Player 
@@ -41,4 +43,6 @@ public:
 class Mage : Player
 {
 
+public:
+	int _mp;
 };
