@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 //class Inventory
 //{
 //
@@ -46,42 +48,97 @@
 //	p1->_hp -= p2->_attack;
 //}
 
-class car 
-{
-public:
-	void MoveHandle(){}
-	void pushPedal(){}
-	void OpenDoor(){}
-	void TurnKey(){}
-
-protected:
-	void disassemble(){}
-	void putFuellnEngine(){}
-	void connectCircuit(){}
-
-public:
-
-
-};
-
-class Knight
-{
-public:
-
-public:
-	int _hp = 100;
-};
-
-int main()
-{
-
-}
+//class car 
+//{
+//public:
+//	void MoveHandle(){}
+//	void pushPedal(){}
+//	void OpenDoor(){}
+//	void TurnKey(){}
+//
+//protected:
+//	void disassemble(){}
+//	void putFuellnEngine(){}
+//	void connectCircuit(){}
+//
+//public:
+//
+//
+//};
+//
+//class Knight
+//{
+//public:
+//	void SetHp(int hp)
+//	{
+//		_hp = hp;
+//		if (_hp <= 50)
+//		{
+//			//TODO
+//		}
+//	}
+//
+//	int GetHp()
+//	{
+//		return _hp;
+//	}
+//
+//
+//private:
+//	int _hp = 100;
+//};
+// 
+//oop 3대 요소
+// -상속성 << inheritance
+// -은닉성 << data hiding (캡슐화 encapsulation)
+// -다형성 << polymorephism
 
 //oop 3대 요소
 // -상속성 << inheritance
 // -은닉성 << data hiding (캡슐화 encapsulation)
-// -다형성
-
+// -다형성 << polymorephism
+// 
 // Player 기본 클래스
 
 // ls-A vs Has-A
+
+// 오버로딩 (overLoding)
+// 오버라이딩 (overRiding)
+
+// 동물
+//   개
+//   고양이
+
+// 바이딩 (binding)
+// - 정적 바이딩 (Static Binding - 컴파일 시점에 결정)
+// - 동적 바이딩 (dynamic Binding - 실행 시점에 결정)
+
+// 동적 바이팅 과 정적 바이딩 의 차이는 실행 시점 이 상이 하다 
+
+
+class Player 
+{
+public:
+	void Move() { cout << "Player Move()" <<  endl; };
+
+public:
+	int _hp;
+
+};
+
+class Knight : public Player
+{
+	 
+};
+
+void MovePlayer(Player* player)
+{
+	player->Move();
+}
+
+
+int main()
+{
+	Knight k1;
+	MovePlayer(&k1);
+}
