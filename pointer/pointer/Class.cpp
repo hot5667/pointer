@@ -117,7 +117,7 @@ using namespace std;
 
 // virtual - 가상 함수
 // vrtTable (virtual function table)
-// vrtTable ( 주소 1 | 주소 2 | 주소 3 )
+// .vrtTable ( 주소 1 | 주소 2 | 주소 3 )
 
 // 소멸자 virtual ~Player 로 만들어야 한다. ( 상속을 받았을 경우)
 

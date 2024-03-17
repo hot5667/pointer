@@ -52,6 +52,9 @@
     <ClCompile Include="Class.cpp">
       <Filter>공부 Cpp 파일</Filter>
     </ClCompile>
+    <ClCompile Include="class2.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="공부.txt">
