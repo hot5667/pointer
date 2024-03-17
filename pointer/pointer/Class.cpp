@@ -115,20 +115,29 @@ using namespace std;
 
 // 동적 바이팅 과 정적 바이딩 의 차이는 실행 시점 이 상이 하다 
 
+// virtual - 가상 함수
+// vrtTable (virtual function table)
+// vrtTable ( 주소 1 | 주소 2 | 주소 3 )
+
+// 소멸자 virtual ~Player 로 만들어야 한다. ( 상속을 받았을 경우)
 
 class Player 
 {
 public:
-	void Move() { cout << "Player Move()" <<  endl; };
+	virtual void Move() { cout << "Player Move()" <<  endl; };
 
 public:
-	int _hp;
+	int _hp = 100;
 
 };
 
 class Knight : public Player
 {
-	 
+public:
+	virtual void Move() { cout << "Knight Move()" << endl; };
+
+public:
+	int _stamina = 200;
 };
 
 void MovePlayer(Player* player)
