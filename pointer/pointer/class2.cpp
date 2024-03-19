@@ -20,7 +20,8 @@ class Knight : public Player
 {
 
 public:
-	Knight()
+	Knight() : _hp(0)
+		// 선처리 영역
 	{
 		cout << "Knight()" << endl;
 
@@ -39,5 +40,5 @@ public:
 
 int main()
 {
-
+	Knight k1;
 }
