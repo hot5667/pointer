@@ -14,6 +14,9 @@
     <Filter Include="자료구조">
       <UniqueIdentifier>{54323333-bd4e-42d7-ba88-c2600e60086a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="알고리즘">
+      <UniqueIdentifier>{1ee55ca3-2356-4cba-bdc4-1f7be68bed94}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main1.cpp">
@@ -55,8 +58,15 @@
     <ClCompile Include="class2.cpp">
       <Filter>공부 Cpp 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Class3.cpp" />
-    <ClCompile Include="class4.cpp" />
+    <ClCompile Include="main0001.cpp">
+      <Filter>알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="class4.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Class3.cpp">
+      <Filter>공부 Cpp 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="공부.txt">
@@ -81,6 +91,12 @@
     </ClInclude>
     <ClInclude Include="LinkedList.h">
       <Filter>자료구조</Filter>
+    </ClInclude>
+    <ClInclude Include="selection.h">
+      <Filter>알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="sorting.h">
+      <Filter>알고리즘</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
