@@ -16,7 +16,9 @@ template <class T>
 void Selection<T>::sorting()
 {
     int N = this->getSize();
-    T* data = this->getData();
+
+    const T* const_data = this->getData();
+    T* data = const_cast<T*>(const_data); 
 
     for (int last = N - 1; last >= 1; --last) {
         int largestIndex = 0;
