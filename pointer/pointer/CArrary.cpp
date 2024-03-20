@@ -33,7 +33,6 @@ int main()
 	arr.PushBack(10);
 	arr.PushBack(10);
 	arr.PushBack(10);
-	arr.PushBack(10);
 
 
 
@@ -78,6 +77,7 @@ int CArrary::GetData(int _idx)
 {
 	if (m_Size <= _idx || _idx < 0)
 	{
+		throw std::invalid_argument("잘못된 영역입니다.");
 		assert(nullptr);
 	}
 
@@ -105,6 +105,7 @@ CArrary::CArrary()
 	//new 키워드 경우 자료형과 사이즈 를 활당을 받아 가져 간다. 
 
 }
+
 
 CArrary::~CArrary()
 {
