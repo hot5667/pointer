@@ -203,7 +203,6 @@
     <ClInclude Include="doubleSelectionSort.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="HomeWork.h" />
     <ClInclude Include="LinkedList.h" />
     <ClInclude Include="selection.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>

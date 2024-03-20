@@ -14,37 +14,37 @@
     <Filter Include="알고리즘">
       <UniqueIdentifier>{1ee55ca3-2356-4cba-bdc4-1f7be68bed94}</UniqueIdentifier>
     </Filter>
-    <Filter Include="알고리즘\공부 Cpp 파일">
+    <Filter Include="헤더 파일\공부 Cpp 파일">
       <UniqueIdentifier>{17f435f9-4f2b-46ff-acd9-a9ff6bc4e081}</UniqueIdentifier>
     </Filter>
-    <Filter Include="알고리즘\공부 Cpp 파일\동적 배열">
+    <Filter Include="헤더 파일\공부 Cpp 파일\동적 배열">
       <UniqueIdentifier>{a9c8c6b8-88d8-416f-bff9-6b56f1b2c966}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main1.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="main02.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="pointer.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="main03.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="Study.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="main04.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="main05cpp.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="ClassStudy.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="tArr.cpp">
       <Filter>자료구조</Filter>
@@ -56,19 +56,19 @@
       <Filter>텍스트 파일</Filter>
     </ClCompile>
     <ClCompile Include="Class.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="class2.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="main0001.cpp">
       <Filter>알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="class4.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="Class3.cpp">
-      <Filter>알고리즘\공부 Cpp 파일</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
     </ClCompile>
     <ClCompile Include="Double_Selection_Sort.cpp">
       <Filter>알고리즘</Filter>
@@ -80,7 +80,7 @@
       <Filter>알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="CArrary.cpp">
-      <Filter>알고리즘\공부 Cpp 파일\동적 배열</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일\동적 배열</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -101,9 +101,6 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HomeWork.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="tArr.h">
       <Filter>자료구조</Filter>
     </ClInclude>
@@ -126,7 +123,7 @@
       <Filter>알고리즘</Filter>
     </ClInclude>
     <ClInclude Include="CArrary.h">
-      <Filter>알고리즘\공부 Cpp 파일\동적 배열</Filter>
+      <Filter>헤더 파일\공부 Cpp 파일\동적 배열</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
