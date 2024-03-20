@@ -67,6 +67,15 @@
     <ClCompile Include="Class3.cpp">
       <Filter>공부 Cpp 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Double_Selection_Sort.cpp">
+      <Filter>알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="doubleSelectionSort.cpp">
+      <Filter>알고리즘</Filter>
+    </ClCompile>
+    <ClCompile Include="Main0002.cpp">
+      <Filter>알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="공부.txt">
@@ -79,6 +88,9 @@
       <Filter>텍스트 파일</Filter>
     </Text>
     <Text Include="3월 14일 학원 강의.txt">
+      <Filter>텍스트 파일</Filter>
+    </Text>
+    <Text Include="빅오 연산법.txt">
       <Filter>텍스트 파일</Filter>
     </Text>
   </ItemGroup>
@@ -96,6 +108,15 @@
       <Filter>알고리즘</Filter>
     </ClInclude>
     <ClInclude Include="sorting.h">
+      <Filter>알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="doubleSelectionSort.h">
+      <Filter>알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="bubble.h">
+      <Filter>알고리즘</Filter>
+    </ClInclude>
+    <ClInclude Include="sorting1.h">
       <Filter>알고리즘</Filter>
     </ClInclude>
   </ItemGroup>
