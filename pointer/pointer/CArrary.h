@@ -3,7 +3,7 @@
 
 #pragma once
 
-//클랙스 템플릿
+//클래스 템플릿
 template<typename T>
 class CArrary
 {
