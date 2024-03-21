@@ -5,6 +5,7 @@
 
 // 동적 배열 
 
+// 템플릿 학습 
 
 
 int main()
@@ -13,28 +14,6 @@ int main()
 	arr.Resize(20);
 
 	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-	arr.PushBack(10);
-
-
 
 	return 0;
 }
