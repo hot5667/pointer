@@ -16,4 +16,12 @@ int main()
 
 	vector<int>::iterator iter;
 	iter = vec.begin(); // 시작을 가르키는 함수
+
+	for (iter = vec.begin(); iter != vec.end(); ++iter)
+	{
+		std::cout << *iter << std::endl;
+	}
+
+
+	return 0;
 }
