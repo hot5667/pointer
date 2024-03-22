@@ -16,10 +16,8 @@ public:
 
 int main()
 {
-	void* ptr = malloc(4);
+	// malloc + free
+	// new + delete
 
-	Monster* m = (Monster*)ptr;
-	m->_hp = 100;
-
-	free(ptr);
+	Monster* m1 = new Monster;
 }
