@@ -16,10 +16,9 @@ int main()
 
 
 	vector<int> vecInt;
-	vecInt.reserve(10);
-	vecInt.push_back(10);
+	vecInt.resize(10);
 	vecInt.push_back(20);
 	vecInt.push_back(30);
 
-
+	//¹Ýº¹ÀÚ(iterator)
 }
