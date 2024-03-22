@@ -3,14 +3,12 @@
 
 class Monster
 {
-
 public:
 	Monster() { std::cout << "Monster()" << std::endl; }
 	~Monster() { std::cout << "~Monster()" << std::endl; }
 
 public:
 	int _hp = 0;
-
 };
 
 
@@ -19,5 +17,10 @@ int main()
 	// malloc + free
 	// new + delete
 
-	Monster* m1 = new Monster;
+	Monster* m1 = new Monster();
+
+	m1->_hp = 100;
+
+	delete m1;
+	//delete[] m1;
 }
