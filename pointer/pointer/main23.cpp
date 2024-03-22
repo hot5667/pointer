@@ -14,6 +14,6 @@ int main()
 		vec.push_back(i + 1);
 	}
 
-
 	vector<int>::iterator iter;
+	iter = vec.begin(); // 시작을 가르키는 함수
 }
