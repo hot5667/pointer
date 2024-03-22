@@ -17,11 +17,24 @@ public:
 	void PushBack(const T& _Data);
 	void Resize(int _Size);
 
+	unsigned int Size() { return m_Size; }
+
 	T& GetData(int _idx);
 	T& operator[] (unsigned int _idx);
+
+	void Clear();
+
 public:
 	CArrary();
 	~CArrary();
+
+	// 내부 클래스(Inner class)
+	// 1. 컨테이너 별, 컨테이너 타입별로 모두 Iterator 동일한 이름 으로 사용이 가능하다.
+	// 2. 포함클래스의 private 까지 접근이 가능하다.
+	class iterator
+	{
+		int m_Data;
+	};
 };
 
 template<typename T>
@@ -79,6 +92,12 @@ T& CArrary<T>::operator[](unsigned int _idx)
 	}
 
 	return m_pData[_idx];
+}
+
+template<typename T>
+void CArrary<T>::Clear()
+{
+	m_Size = 0;
 }
 
 template<typename T>
