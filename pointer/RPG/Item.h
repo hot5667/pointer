@@ -19,18 +19,21 @@ public:
 	Item();
 	virtual ~Item();
 
+	virtual void PrintInfo();
 
-private:
+protected:
 	int _itemId = 0;
 	int _itemCount = 0;
 	ItemRarity _rarity = IR_Noraml;
 };
 
-class Weapom : public Item
+class Weapon : public Item
 {
 public:
-	Weapom();
-	virtual ~Weapom();
+	Weapon();
+	virtual ~Weapon();
+
+	virtual void PrintInfo() override;
 
 	void SetDamage(int damage) { _damage = damage; }
 	int GetDamage() { return  _damage; }
@@ -41,11 +44,14 @@ private:
 };
 
 
+
 class Armor :public Item
 {
 public:
 	Armor();
 	virtual ~Armor();
+
+	virtual void PrintInfo() override;
 
 	void SetDefence(int defence) { _defence = defence; }
 	int GetDefence() { return _defence; }
