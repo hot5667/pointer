@@ -130,3 +130,13 @@ void Armor::PrintInfo()
 //	short b = (short)a;
 //	int c = 0;
 //}
+
+// 암시적 
+//{
+//	int a = 13465789;
+//	// 암시적 변환
+//	float b = a;
+//
+//	// 명시적 변환
+//	float b = (float)a;
+//}
