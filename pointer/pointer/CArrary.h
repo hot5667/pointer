@@ -7,7 +7,6 @@
 template<typename T>
 class CArrary
 {
-
 private:
 	T* m_pData;
 	unsigned int  m_Capacity;
@@ -38,9 +37,22 @@ public:
 	class iterator
 	{
 	private:
+		CArrary<T> m_Container;
+		int m_idx;  // 1인 경우, End Iterator 로 간주
 
-
-		int m_Data;
+	public:
+		iterator() : m_Capacity(nullptr)
+		{
+		}
+		iterator(CArrary<T>* _Containerm, int _idx)
+			: m_Container(_Container)
+			, m_idx(_idx)
+		{
+			m_Container = _oheriter.m_Container;
+		}
+		bool operator == (const iterator& _otheriter&& m_idx == other.m_idx)
+		{
+		}
 	};
 };
 
@@ -111,14 +123,14 @@ void CArrary<T>::Clear()
 template<typename T>
 typename CArrary<T>::iterator CArrary<T>::begin()
 {
-	return iterator();
+	return iterator(this, 0);
 }
 
 // 변환타입이 inner 클래스 인경우  typename 을 붙인다.
 template<typename T>
 typename CArrary<T>::iterator CArrary<T>::end()
 {
-	return iterator();
+	return iterator(this, -1);
 }
 
 template<typename T>
@@ -127,11 +139,9 @@ CArrary<T>::CArrary()
 	, m_Capacity(0)
 	, m_Size(0)
 {
-
 	//m_pData = (int*)malloc(sizeof(int) * m_Capacity);
 	m_pData = new T[m_Capacity];
-	//new 키워드 경우 자료형과 사이즈 를 활당을 받아 가져 간다. 
-
+	//new 키워드 경우 자료형과 사이즈 를 활당을 받아 가져 간다.
 }
 
 template<typename T>

@@ -20,7 +20,7 @@ using namespace std;
 //
 //	int i = 0;
 //
-//	//while (src[i] != 0) 
+//	//while (src[i] != 0)
 //	//{
 //	//	dest[i] = src[i];
 //	//	i++;
@@ -67,18 +67,8 @@ using namespace std;
 //
 //}
 
-
 int main()
 {
-
-
-
-
-
-
-
-
-
 	//StatInfo Player = { 100,10,1 };
 
 	//StatInfo& ref = Player;
@@ -90,9 +80,6 @@ int main()
 	char a[BUF_SIZE] = "Hello";
 	char b[BUF_SIZE] = "world";
 
-
-
-
 	char c[BUF_SIZE];
 	strcpy(c, a);
 	cout << c << endl;
@@ -100,5 +87,4 @@ int main()
 	cout << strcat(a, b) << endl;
 
 	return 0;*/
-
 }

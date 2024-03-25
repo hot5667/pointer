@@ -2,29 +2,26 @@
 
 using namespace std;
 
-class Player 
+class Player
 {
 public:
-	Player() 
+	Player()
 	{
 		cout << "Player()" << endl;
 	}
 	~Player()
 	{
-		cout << "~Player()" << endl; 
+		cout << "~Player()" << endl;
 	}
-
 };
 
-class Knight : public Player 
+class Knight : public Player
 {
-
 public:
 	Knight() : _hp(0)
 		// 선처리 영역
 	{
 		cout << "Knight()" << endl;
-
 	}
 
 	~Knight()
@@ -34,9 +31,7 @@ public:
 
 public:
 	int _hp;
-
 };
-
 
 int main()
 {

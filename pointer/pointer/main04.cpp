@@ -86,16 +86,12 @@ void SetBoard()
 			x = nextX;
 			num++;
 		}*/
-		
 	}
 }
-
 
 int main()
 {
 	cin >> N;
 
 	PrintBoard();
-
-
 }

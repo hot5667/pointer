@@ -32,20 +32,18 @@ public:
 		this->hp = hp;
 	}
 
-
 	// ¼Ò¸êÀÚ
 	~Knight()
 	{
 		cout << "¼Ò¸êÀÚ()" << endl;
 	}
 
-
 	//¸â¹ö ÇÔ¼ö
 	void Attack() { cout << "Attack" << endl; }
 	void Die() { cout << "Die" << endl; }
-	void Heal(int Value) 
-	{	
-		hp += 10;	
+	void Heal(int Value)
+	{
+		hp += 10;
 	}
 
 public:
@@ -58,9 +56,7 @@ public:
 int main()
 {
 	//°´Ã¼(instance)
-	Knight k1(100,10,1);
+	Knight k1(100, 10, 1);
 
 	Knight k2(k1);
-
-
 }

@@ -1,6 +1,5 @@
 #include <iostream>
 
-
 class Monster
 {
 public:
@@ -11,7 +10,6 @@ public:
 	int _hp = 0;
 };
 
-
 class Player
 {
 public:
@@ -20,17 +18,15 @@ public:
 
 Player* FindPlayer(int id)
 {
-
 }
 
 int main()
 {
-	// malloc + free C언어 
+	// malloc + free C언어
 	// new + delete C++ 언어 스타일
 
 	Monster* m1 = new Monster();
 	m1->_hp = 100;
-
 
 	Player* player = new Player();
 	player->_terget = m1;

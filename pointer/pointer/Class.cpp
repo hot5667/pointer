@@ -48,7 +48,7 @@ using namespace std;
 //	p1->_hp -= p2->_attack;
 //}
 
-//class car 
+//class car
 //{
 //public:
 //	void MoveHandle(){}
@@ -87,7 +87,7 @@ using namespace std;
 //private:
 //	int _hp = 100;
 //};
-// 
+//
 //oop 3대 요소
 // -상속성 << inheritance
 // -은닉성 << data hiding (캡슐화 encapsulation)
@@ -97,7 +97,7 @@ using namespace std;
 // -상속성 << inheritance
 // -은닉성 << data hiding (캡슐화 encapsulation)
 // -다형성 << polymorephism
-// 
+//
 // Player 기본 클래스
 
 // ls-A vs Has-A
@@ -113,7 +113,7 @@ using namespace std;
 // - 정적 바이딩 (Static Binding - 컴파일 시점에 결정)
 // - 동적 바이딩 (dynamic Binding - 실행 시점에 결정)
 
-// 동적 바이팅 과 정적 바이딩 의 차이는 실행 시점 이 상이 하다 
+// 동적 바이팅 과 정적 바이딩 의 차이는 실행 시점 이 상이 하다
 
 // virtual - 가상 함수
 // vrtTable (virtual function table)
@@ -121,14 +121,13 @@ using namespace std;
 
 // 소멸자 virtual ~Player 로 만들어야 한다. ( 상속을 받았을 경우)
 
-class Player 
+class Player
 {
 public:
-	virtual void Move() { cout << "Player Move()" <<  endl; };
+	virtual void Move() { cout << "Player Move()" << endl; };
 
 public:
 	int _hp = 100;
-
 };
 
 class Knight : public Player
@@ -144,7 +143,6 @@ void MovePlayer(Player* player)
 {
 	player->Move();
 }
-
 
 int main()
 {

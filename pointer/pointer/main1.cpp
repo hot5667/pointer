@@ -71,7 +71,6 @@ void Battle(StatInfo* player, StatInfo* monster)
 	}
 }
 
-
 int main()
 {
 	//void* ptr; //렘의 가상의 주소
@@ -91,4 +90,3 @@ int main()
 
 	Battle(&player, &monster);
 }
-

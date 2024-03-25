@@ -12,7 +12,7 @@ using namespace std;
 //		attack = 10;
 //	}
 //
-//	//특정 객체와 무관 
+//	//특정 객체와 무관
 //	// 전역 함수로 라고 생각하면 쉬움
 //	static void SetAttack(int value)
 //	{
@@ -45,7 +45,7 @@ using namespace std;
 //}
 
 //자료구조&알고리즘
-//디자인 패턴 
+//디자인 패턴
 // -싱글톤, 옵저버, 컴퍼넌트
 
 class UserManger

@@ -10,7 +10,7 @@ void Swap(int& a, int& b)
 
 void Sort(int* numbers, int count)
 {
-	for (int i = 0;i < count; ++i)
+	for (int i = 0; i < count; ++i)
 	{
 		for (int j = 0; j < count - 1; ++j)
 		{

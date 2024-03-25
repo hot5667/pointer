@@ -14,7 +14,7 @@ void PushBack(tList* _List, int _Data)
 		_List->pHeadNode = pNewNode;
 	}
 	//List 가 보유한 데이터가 1개 이상이라면
-	else 
+	else
 	{
 		// List 가 보유한 데이터중 갖아 마지막 노드를 찾는다.
 		tNode* pFinalNode = _List->pHeadNode;
@@ -29,7 +29,6 @@ void PushBack(tList* _List, int _Data)
 		_List->pHeadNode;
 
 		//가장 마지막 노드를 찾았으면, 해당 노드가 이번에 생성된 노드를 가리킨다.
-
 	}
 
 	++_List->CurCount;
@@ -68,5 +67,4 @@ void Release(tList* _List)
 		free(pNode);
 		pNode = pNextNode;
 	}
-
 }

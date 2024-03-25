@@ -28,14 +28,11 @@ public:
 	// 대입 연산자
 	void operator=(int b)
 	{
-
-
 	}
 
 	int x = 0;
 	int y = 0;
 };
-
 
 Pos operator+(int a, const Pos& b)
 {

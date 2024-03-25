@@ -30,17 +30,14 @@ int main()
 	PushBack(&list, 500);
 	PushBack(&list, 600);
 
-
 	return 0;
 }
 
 void InitArray(tArray* _Arr)
 {
-
 	_Arr->pData = (int*)malloc(sizeof(int) * 2);
 	_Arr->MaxCount = 2;
 	_Arr->CurCount = 0;
-
 }
 
 void PushBack(tArray* _Arr, int _Data)
@@ -81,5 +78,4 @@ void Release(tArray* _Arr)
 	_Arr->pData = nullptr;
 	_Arr->MaxCount = 0;
 	_Arr->CurCount = 0;
-
 }

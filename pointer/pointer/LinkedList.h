@@ -5,12 +5,12 @@
 struct tNode
 {
 	int	Data;
-	tNode*	pNextNode;
+	tNode* pNextNode;
 };
 
 struct tList
 {
-	tNode*	pHeadNode;
+	tNode* pHeadNode;
 	int		CurCount;
 };
 

@@ -45,7 +45,6 @@ int main()
 
 	for (iter = vec.begin(); iter != vec.end(); )
 	{
-
 		iter = vec.erase(iter);
 	}
 

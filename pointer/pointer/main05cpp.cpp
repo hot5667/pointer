@@ -47,7 +47,6 @@ int StringToInt(const char* _Buff, int _Size)
 	return 0;
 }
 
-
 int main()
 {
 	char Out[50] = {};

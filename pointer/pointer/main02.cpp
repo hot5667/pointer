@@ -23,15 +23,14 @@ void Player()
 	info->Lck = 0;
 	info->Spd = 3;
 
-	
 	if (info->Hp == 0)
-	{	while (true)
-		cout << "플레이어가 죽었습니다." << endl;
+	{
+		while (true)
+			cout << "플레이어가 죽었습니다." << endl;
 		return;
 	}
 
 	cout << "플레이어 체력 :" << info->Hp << endl;
-	
 }
 
 int main()
