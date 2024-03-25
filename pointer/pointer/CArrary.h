@@ -37,6 +37,9 @@ public:
 	// 2. 포함클래스의 private 까지 접근이 가능하다.
 	class iterator
 	{
+	private:
+
+
 		int m_Data;
 	};
 };
@@ -102,6 +105,20 @@ template<typename T>
 void CArrary<T>::Clear()
 {
 	m_Size = 0;
+}
+
+// 변환타입이 inner 클래스 인경우  typename 을 붙인다.
+template<typename T>
+typename CArrary<T>::iterator CArrary<T>::begin()
+{
+	return iterator();
+}
+
+// 변환타입이 inner 클래스 인경우  typename 을 붙인다.
+template<typename T>
+typename CArrary<T>::iterator CArrary<T>::end()
+{
+	return iterator();
 }
 
 template<typename T>
