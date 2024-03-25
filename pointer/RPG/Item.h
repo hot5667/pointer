@@ -59,3 +59,19 @@ public:
 private:
 	int _defence = 0;
 };
+
+class Potion : public Item
+{
+public:
+	Potion();
+	virtual ~Potion();
+
+	virtual void PrintInfo() override;
+
+	void setHeal(int heal) { _heal = heal; }
+	int GetHeal() { return _heal; }
+
+
+private:
+	int _heal = 0;
+};

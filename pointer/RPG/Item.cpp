@@ -100,43 +100,33 @@ void Armor::PrintInfo()
 
 }
 
+Potion::Potion()
+{
+	switch (_rarity)
+	{
+	case IR_Noraml:
+		_heal = 1 + rand() % 3;
+		break;
+	case IR_Rare:
+		_heal = 2 + rand() % 3;
+		break;
+	case IR_Unique:
+		_heal = 5 + rand() % 3;
+		break;
+	}
 
-// 값 타입 변환
-// 특징) 의미를 유지하기 위해서 원본 객체와 다른 비트열 재구성
-//{
-//	int a = 123456789;
-//	float b = (float)a;
-//	int c = 0;
-//}
 
+}
 
-//참조 타입 변환
-//{
-//	int a = 123456789;
-//	float b = (float&)a;
-//	int c = 0;
-//}
+Potion::~Potion()
+{
+}
 
-// 안전환 변환 (의미가 100% 일치)
-//{
-//	int a = 13465789;
-//	__int64 b = (__int64)a;
-//	int c = 0;
-//}
-
-// 불안전환 변환 (의미가 가 불안전하게 전달)
-//{
-//	int a = 13465789;
-//	short b = (short)a;
-//	int c = 0;
-//}
-
-// 암시적 
-//{
-//	int a = 13465789;
-//	// 암시적 변환
-//	float b = a;
-//
-//	// 명시적 변환
-//	float b = (float)a;
-//}
+void Potion::PrintInfo()
+{
+	std::cout << "****************************" << std::endl;
+	std::cout << "[아이템 타입] : 포션" << std::endl;
+	std::cout << "[회복력] : " << _heal << std::endl;
+	Item::PrintInfo();
+	std::cout << "****************************" << std::endl;
+}
