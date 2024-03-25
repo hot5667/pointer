@@ -24,6 +24,10 @@ public:
 
 	void Clear();
 
+	class iterator;
+	iterator begin();
+	iterator end();
+
 public:
 	CArrary();
 	~CArrary();

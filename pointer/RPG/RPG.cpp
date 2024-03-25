@@ -9,10 +9,15 @@ Item* DropItem()
 		Weapon* weapon = new Weapon();
 		return weapon;
 	}
-	else
+	else if (rand() % 2 == 1)
 	{
 		Armor* armor = new Armor();
 		return armor;
+	}
+	else
+	{
+		Potion* potion = new Potion();
+		return potion;
 	}
 }
 
@@ -24,6 +29,7 @@ int main()
 	{
 		Item* item = DropItem();
 		item->PrintInfo();
+
 	}
 
 
