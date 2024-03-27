@@ -17,7 +17,7 @@ int main()
 
 	CArrary<int>::iterator iter = arrInt.begin();
 
-	for (; iter != arrInt.end(); ++iter)
+	for (; iter != arrInt.end(); --iter)
 	{
 		std::cout << *iter << std::endl;
 	}

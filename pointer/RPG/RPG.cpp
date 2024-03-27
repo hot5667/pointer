@@ -30,6 +30,7 @@ int main()
 		Item* item = DropItem();
 		item->PrintInfo();
 
+
 	}
 
 

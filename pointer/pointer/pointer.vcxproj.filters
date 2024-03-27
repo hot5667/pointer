@@ -82,13 +82,20 @@
     <ClCompile Include="CArrary.cpp">
       <Filter>헤더 파일\공부 Cpp 파일\동적 배열</Filter>
     </ClCompile>
-    <ClCompile Include="main21.cpp" />
     <ClCompile Include="main23.cpp">
       <Filter>헤더 파일\공부 Cpp 파일\동적 배열</Filter>
     </ClCompile>
-    <ClCompile Include="maintCArrary.cpp" />
     <ClCompile Include="main24.cpp">
       <Filter>헤더 파일\공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main21.cpp">
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="maintCArrary.cpp">
+      <Filter>헤더 파일\공부 Cpp 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main25.cpp">
+      <Filter>헤더 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -132,6 +139,9 @@
     </ClInclude>
     <ClInclude Include="CArrary.h">
       <Filter>헤더 파일\공부 Cpp 파일\동적 배열</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>자료구조</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
